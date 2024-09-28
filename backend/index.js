@@ -18,7 +18,11 @@ app.use('/auth/signup',signUp)
 //administration user signup 
 const adminSignUp = require('./Routes/administration.route.js')
 app.use('/auth/administration/signup',adminSignUp)
- 
+
+//logon page 
+const login = require('./Routes/login.routes.js')
+app.use('/auth/login',login)
+
 app.listen(PORT,()=>{
     console.log(`the server is running on ${PORT}`);
     
