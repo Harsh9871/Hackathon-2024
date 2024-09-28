@@ -47,7 +47,6 @@ This project is designed for the *Smart India Hackathon 2024* under Problem Stat
 The *Scholar Vault* platform enhances the efficiency, transparency, and scalability of the scholarship application process, ensuring a secure and paperless environment for PMSSS applicants.
 
 ## References
-- [GitHub Repository](https://github.com/Harsh9871/Hackathon-2024)
 - [Research Paper 1](https://www.thehindu.com/news/national/himachal-pradesh/himachal-multi-crore-scholarship-scam-cbi-files-charge-sheet-against-20-institutes-105-individuals/article68005966.ece)
 - [Research Paper 2](https://www.thehindu.com/news/national/cbi-registers-case-to-probe-minority-student-scholarship-scam/article67249147.ece)
 - [DB Diagram on Figma](https://www.figma.com/design/faD2QWGHAWqEpBu1gfnhFX/DB-diagram---SQL-Server-%2F-MongoDB-(Community)?node-id=260-1698&m=dev&t=QNQpHISQj4ObLTgX-1)
