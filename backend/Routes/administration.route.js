@@ -27,7 +27,7 @@ router.post('/',async(req,res)=>{
         email,
         password:hashedPassword,
         role
-    })
+    });
     await adminUser.save();
     res.status(201).json({'msg':'User created successfully'})
     }catch(e){
