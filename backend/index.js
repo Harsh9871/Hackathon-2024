@@ -12,11 +12,12 @@ app.get('/',(req,res)=>{
 })
 
 // Sign up page route
-const signUp = require('./Routes/signup.route.js')
+const signUp = require('./Routes/signup.routes.js')
 app.use('/auth/signup',signUp)
 
+
 //administration user signup 
-const adminSignUp = require('./Routes/administration.route.js')
+const adminSignUp = require('./Routes/administration.routes.js')
 app.use('/auth/administration/signup',adminSignUp)
 
 //logon page 

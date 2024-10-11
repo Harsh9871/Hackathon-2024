@@ -18,7 +18,7 @@ router.post('/',async(req,res)=>{
         }
 
     const salt = await bcrypt.genSalt(10);
-    const hashedPassword = await bcrypt.hash(password,salt);0
+    const hashedPassword = await bcrypt.hash(password,salt);
     clerk = ['view','verifyRecord']
     managerial = ['createClerk','view','verifyRecord','createSchem']
     admin = ['view','verifyRecord','createManger','createClerk','createSchem']
